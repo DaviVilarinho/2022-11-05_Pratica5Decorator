@@ -1,0 +1,34 @@
+Universidade Federal de Uberlândia
+Faculdade de Computação
+Disciplina: POO2
+Professor: Fabiano Azevedo Dorça
+
+Pratica
+Padrão Decorator
+Faça o Diagrama de Classes e implementação
+→ No game em desenvolvimento, deseja-se adicionar poderes
+dinamicamente ao ataque do personagem, em tempo de execução.
+→ Além disto, deseja-se ter a flexibilidade de extensão desta aplicação
+sem modificação do código existente.
+→ Use o padrão Decorator para implementar este requisito, de forma que
+poderes podem decorar o ataque em tempo de execução. Para isto é
+preciso que a estratégia (padrão strategy) que implementa um ataque
+(produto original) seja decorada com poderes adicionais (decoradores)
+→ Crie 3 poderes (decoradores) para o ataque.
+→ Cada poder (decorador) deve somar um valor ao atributo dano do
+ataque, tornando-o mais forte.
+→ Crie uma classe principal com um método main() para simular a
+execução do jogo, decorando o ataque de um jogador em tempo de
+execução.
+Dicas:
+– Lembre-se que a abstração decorator e o componente a ser decorado
+possuem o mesmo supertipo.
+– Neste caso, necessariamente a abstração decorator (interface ou
+classe abstrata) deverá implementar a interface Component.
+– Os poderes concretos (decoradores) deverão implementar a abstração
+decorator.
+– É importante modelar o diagrama, pois agora estamos acoplando
+vários padrões, e é importante que se tenha claro o ponto de união
+entre eles.
+
+
