@@ -1,5 +1,6 @@
 package pratica5decorator.personagens.estados;
 
+import pratica5decorator.acoes.atacar.poderes.AtacarDecorator;
 import pratica5decorator.personagens.Personagem;
 
 public class MortoState implements PersonagemState {
@@ -35,6 +36,11 @@ public class MortoState implements PersonagemState {
     public Double atacar() {
         System.out.println("Não é possível atacar porque o personagem está morto");
         return 0.0;
+    }
+
+    @Override
+    public void addPoder(Class<? extends AtacarDecorator> tipoPoder) {
+        System.out.println("Não é possível adicionar poder ao personagem morto");
     }
 
     @Override

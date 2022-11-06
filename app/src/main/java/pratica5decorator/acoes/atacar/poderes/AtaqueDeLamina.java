@@ -11,6 +11,7 @@ public class AtaqueDeLamina extends AtacarDecorator {
 
     @Override
     public Double atacar() {
+        System.out.println("Lancei lâmina");
         return this.getAtaque().atacar() + AtaqueDeLamina.BASE_ATAQUE_DE_LAMINA_HP;
     }
 }

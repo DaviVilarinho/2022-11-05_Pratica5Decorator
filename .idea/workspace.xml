@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="criado decorators com ataques">
+    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="adaptado para hp">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/VivoState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueComVelocidadeUltrassonica.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueComVelocidadeUltrassonica.java" afterDir="false" />
@@ -16,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/MortoState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/MortoState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/PersonagemState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/PersonagemState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Pratica05-Padrao-Decorator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pratica05-Padrao-Decorator.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,26 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratica5decorator.Main" />
+      <module name="Pratica5Decorator.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratica5decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667737499717</updated>
       <workItem from="1667737500816" duration="17000" />
-      <workItem from="1667737528292" duration="3276000" />
+      <workItem from="1667737528292" duration="5831000" />
     </task>
     <task id="LOCAL-00001" summary="refatorando ataque">
       <created>1667738513415</created>
@@ -94,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667740272813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adaptado para hp">
+      <created>1667740890391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667740890391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +142,7 @@
     <MESSAGE value="refatorando ataque" />
     <MESSAGE value="refatorando ataque referencias" />
     <MESSAGE value="criado decorators com ataques" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado decorators com ataques" />
+    <MESSAGE value="adaptado para hp" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptado para hp" />
   </component>
 </project>

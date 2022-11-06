@@ -1,5 +1,6 @@
 package pratica5decorator.personagens;
 
+import pratica5decorator.acoes.atacar.poderes.AtacarDecorator;
 import pratica5decorator.personagens.escudos.Escudo;
 import pratica5decorator.personagens.escudos.EscudoProtetor;
 import pratica5decorator.personagens.estados.NormalState;
@@ -64,5 +65,9 @@ public class Personagem {
 
     public void ganhaEscudo(Escudo escudo) {
         this.escudo.addEscudo(escudo);
+    }
+
+    public void ganhaPoder(Class<? extends AtacarDecorator> classeDoPoder) {
+        this.personagemState.addPoder(classeDoPoder);
     }
 }

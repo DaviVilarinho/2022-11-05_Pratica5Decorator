@@ -10,6 +10,7 @@ public class AtaqueComVelocidadeUltrassonica extends AtacarDecorator {
 
     @Override
     public Double atacar() {
+        System.out.println("Lancei com velocidade aumentada");
         return this.getAtaque().atacar() + AtaqueComVelocidadeUltrassonica.ATAQUE_COM_VELOCIDADE_ULTRASSONICA_HP;
     }
 }

@@ -11,6 +11,7 @@ public class AtaqueDeFogo extends AtacarDecorator {
 
     @Override
     public Double atacar() {
+        System.out.println("Lancei fogo");
         return this.getAtaque().atacar() + AtaqueDeFogo.ATAQUE_DE_FOGO_HP;
     }
 }

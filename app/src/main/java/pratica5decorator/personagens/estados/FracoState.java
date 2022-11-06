@@ -2,22 +2,24 @@ package pratica5decorator.personagens.estados;
 
 import pratica5decorator.acoes.atacar.AtacarFraco;
 import pratica5decorator.acoes.atacar.AtacarStrategy;
+import pratica5decorator.acoes.atacar.poderes.AtacarDecorator;
 import pratica5decorator.acoes.correr.CorrerDevagar;
 import pratica5decorator.acoes.correr.CorrerStrategy;
 import pratica5decorator.acoes.pular.PularBaixo;
 import pratica5decorator.acoes.pular.PularStrategy;
 import pratica5decorator.personagens.Personagem;
 
-public class FracoState implements PersonagemState {
+import java.lang.reflect.InvocationTargetException;
+
+public class FracoState extends VivoState implements PersonagemState {
     public static Double HP_MAX = 30.0;
     private Personagem personagem;
-    PularStrategy pularStrategy;
-    AtacarStrategy atacarStrategy;
-    CorrerStrategy correrStrategy;
+    private PularStrategy pularStrategy;
+    private CorrerStrategy correrStrategy;
 
     public FracoState(Personagem personagem) {
+        super(new AtacarFraco(personagem));
         this.personagem = personagem;
-        this.atacarStrategy = new AtacarFraco(personagem);
         this.correrStrategy = new CorrerDevagar();
         this.pularStrategy = new PularBaixo();
     }
@@ -47,7 +49,7 @@ public class FracoState implements PersonagemState {
 
     @Override
     public Double atacar() {
-        return atacarStrategy.atacar();
+        return this.getAtacarStrategy().atacar();
     }
 
     @Override

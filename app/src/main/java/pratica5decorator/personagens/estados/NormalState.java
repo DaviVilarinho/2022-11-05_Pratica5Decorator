@@ -8,16 +8,15 @@ import pratica5decorator.acoes.pular.PularMedio;
 import pratica5decorator.acoes.pular.PularStrategy;
 import pratica5decorator.personagens.Personagem;
 
-public class NormalState implements PersonagemState {
+public class NormalState extends VivoState implements PersonagemState {
     public static Double HP_MAX = 70.0;
     private Personagem personagem;
-    PularStrategy pularStrategy;
-    AtacarStrategy atacarStrategy;
-    CorrerStrategy correrStrategy;
+    private PularStrategy pularStrategy;
+    private CorrerStrategy correrStrategy;
 
     public NormalState(Personagem personagem) {
+        super(new AtacarMedio(personagem));
         this.personagem = personagem;
-        this.atacarStrategy = new AtacarMedio(personagem);
         this.correrStrategy = new CorrerMedio();
         this.pularStrategy = new PularMedio();
     }
@@ -47,7 +46,7 @@ public class NormalState implements PersonagemState {
 
     @Override
     public Double atacar() {
-        return atacarStrategy.atacar();
+        return this.getAtacarStrategy().atacar();
     }
 
     @Override
