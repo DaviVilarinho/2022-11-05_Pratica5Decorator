@@ -4,7 +4,7 @@ import pratica5decorator.acoes.atacar.poderes.AtacarDecorator;
 import pratica5decorator.personagens.Personagem;
 
 public class MortoState implements PersonagemState {
-    Personagem personagem;
+    private Personagem personagem;
 
     public MortoState(Personagem personagem) {
         this.personagem = personagem;

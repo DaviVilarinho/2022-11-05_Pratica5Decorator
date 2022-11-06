@@ -3,7 +3,7 @@ package pratica5decorator.personagens.estados;
 import pratica5decorator.acoes.atacar.AtacarStrategy;
 import pratica5decorator.acoes.atacar.poderes.AtacarDecorator;
 
-public abstract class VivoState {
+public abstract class VivoState implements PersonagemState {
     private AtacarStrategy atacarStrategy;
 
     public VivoState(AtacarStrategy atacarStrategy) {
