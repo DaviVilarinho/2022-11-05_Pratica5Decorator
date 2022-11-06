@@ -17,7 +17,7 @@ public class FracoState implements PersonagemState {
 
     public FracoState(Personagem personagem) {
         this.personagem = personagem;
-        this.atacarStrategy = new AtacarFraco();
+        this.atacarStrategy = new AtacarFraco(personagem);
         this.correrStrategy = new CorrerDevagar();
         this.pularStrategy = new PularBaixo();
     }

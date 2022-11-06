@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/BaseAtacarStrategy.java" afterDir="false" />
+    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="refatorando ataque">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarForte.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarForte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarFraco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarFraco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarMedio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/AtacarStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/Personagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/ForteState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/ForteState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/FracoState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/FracoState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +58,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667737499717</updated>
       <workItem from="1667737500816" duration="17000" />
-      <workItem from="1667737528292" duration="969000" />
+      <workItem from="1667737528292" duration="1026000" />
     </task>
+    <task id="LOCAL-00001" summary="refatorando ataque">
+      <created>1667738513415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667738513415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refatorando ataque" />
+    <option name="LAST_COMMIT_MESSAGE" value="refatorando ataque" />
   </component>
 </project>

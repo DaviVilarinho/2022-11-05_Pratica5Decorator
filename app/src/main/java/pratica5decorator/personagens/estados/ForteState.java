@@ -17,7 +17,7 @@ public class ForteState implements PersonagemState {
 
     public ForteState(Personagem personagem) {
         this.personagem = personagem;
-        this.atacarStrategy = new AtacarForte();
+        this.atacarStrategy = new AtacarForte(personagem);
         this.correrStrategy = new CorrerRapido();
         this.pularStrategy = new PularAlto();
     }

@@ -17,7 +17,7 @@ public class NormalState implements PersonagemState {
 
     public NormalState(Personagem personagem) {
         this.personagem = personagem;
-        this.atacarStrategy = new AtacarMedio();
+        this.atacarStrategy = new AtacarMedio(personagem);
         this.correrStrategy = new CorrerMedio();
         this.pularStrategy = new PularMedio();
     }
