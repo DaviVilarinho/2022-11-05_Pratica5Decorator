@@ -52,8 +52,8 @@ public class Personagem {
     public void correr() {
         this.personagemState.correr();
     };
-    public void atacar() {
-        this.personagemState.atacar();
+    public Double atacar() {
+        return this.personagemState.atacar();
     };
     public void tomarDano(Double dano) {
         this.personagemState = this.personagemState.tomarDano(dano);

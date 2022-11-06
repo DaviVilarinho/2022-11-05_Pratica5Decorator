@@ -32,8 +32,9 @@ public class MortoState implements PersonagemState {
     }
 
     @Override
-    public void atacar() {
+    public Double atacar() {
         System.out.println("Não é possível atacar porque o personagem está morto");
+        return 0.0;
     }
 
     @Override

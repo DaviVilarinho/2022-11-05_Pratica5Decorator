@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="refatorando ataque referencias">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtacarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueComVelocidadeUltrassonica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeFogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeLamina.java" afterDir="false" />
+    <list default="true" id="bff87ac0-f3ac-45bb-ba79-9b8832cd2dbe" name="Changes" comment="criado decorators com ataques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueComVelocidadeUltrassonica.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueComVelocidadeUltrassonica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeFogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeFogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeLamina.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/acoes/atacar/poderes/AtaqueDeLamina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/Personagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/ForteState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/ForteState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/FracoState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/FracoState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/MortoState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/MortoState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/NormalState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/PersonagemState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pratica5decorator/personagens/estados/PersonagemState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pratica05-Padrao-Decorator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pratica05-Padrao-Decorator.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667737499717</updated>
       <workItem from="1667737500816" duration="17000" />
-      <workItem from="1667737528292" duration="2706000" />
+      <workItem from="1667737528292" duration="3276000" />
     </task>
     <task id="LOCAL-00001" summary="refatorando ataque">
       <created>1667738513415</created>
@@ -80,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667738577900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criado decorators com ataques">
+      <created>1667740272813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667740272813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refatorando ataque" />
     <MESSAGE value="refatorando ataque referencias" />
-    <option name="LAST_COMMIT_MESSAGE" value="refatorando ataque referencias" />
+    <MESSAGE value="criado decorators com ataques" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado decorators com ataques" />
   </component>
 </project>

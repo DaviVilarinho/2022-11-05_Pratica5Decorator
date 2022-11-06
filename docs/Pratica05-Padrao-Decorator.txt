@@ -30,5 +30,3 @@ decorator.
 – É importante modelar o diagrama, pois agora estamos acoplando
 vários padrões, e é importante que se tenha claro o ponto de união
 entre eles.
-
-

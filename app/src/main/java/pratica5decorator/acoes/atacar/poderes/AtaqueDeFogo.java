@@ -3,7 +3,7 @@ package pratica5decorator.acoes.atacar.poderes;
 import pratica5decorator.acoes.atacar.AtacarStrategy;
 
 public class AtaqueDeFogo extends AtacarDecorator {
-    public static Double ATAQUE_DE_FOGO_HP = 5.0;
+    public static Double ATAQUE_DE_FOGO_HP = 2.0;
 
     public AtaqueDeFogo(AtacarStrategy ataque) {
         super(ataque);

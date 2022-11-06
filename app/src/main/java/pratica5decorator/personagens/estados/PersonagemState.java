@@ -5,6 +5,6 @@ public interface PersonagemState {
     PersonagemState tomarDano(Double hp);
     void correr();
     void pular();
-    void atacar();
+    Double atacar();
     PersonagemState getProximoEstado();
 }

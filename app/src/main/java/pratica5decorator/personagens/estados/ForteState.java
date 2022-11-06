@@ -46,8 +46,8 @@ public class ForteState implements PersonagemState {
     }
 
     @Override
-    public void atacar() {
-        atacarStrategy.atacar();
+    public Double atacar() {
+        return atacarStrategy.atacar();
     }
 
     @Override
