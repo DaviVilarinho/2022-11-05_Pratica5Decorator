@@ -1,8 +1,14 @@
 package pratica5decorator.acoes.atacar;
 
-public class AtacarMedio implements AtacarStrategy {
+import pratica5decorator.personagens.Personagem;
+
+public class AtacarMedio extends BaseAtacarStrategy implements AtacarStrategy {
+    public AtacarMedio(Personagem personagemAtacante) {
+        super(personagemAtacante);
+    }
+
     @Override
-    public void atacar() {
-        System.out.println("Atacando Médio");
+    public Double atacar() {
+        return this.getPersonagemAtacante().getAtaque();
     }
 }

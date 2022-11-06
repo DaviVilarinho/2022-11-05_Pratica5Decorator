@@ -7,6 +7,8 @@ import pratica5decorator.personagens.estados.PersonagemState;
 
 public class Personagem {
     public static Double MAX_HP = 100.0;
+    public static Double BASE_HP = 70.0;
+    public static Double BASE_ATK = 10.0;
     private Double hp;
     private PersonagemState personagemState;
 
@@ -16,10 +18,21 @@ public class Personagem {
 
     private Escudo escudo;
 
+    public Double getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(Double ataque) {
+        this.ataque = ataque;
+    }
+
+    private Double ataque;
+
     public Personagem() {
-        this.hp = 70.0;
+        this.hp = Personagem.BASE_HP;
         this.personagemState = new NormalState(this);
         this.escudo = new EscudoProtetor(this);
+        this.ataque = Personagem.BASE_ATK;
     }
 
     public Double getHp() {
